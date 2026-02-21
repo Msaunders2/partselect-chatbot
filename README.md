@@ -195,6 +195,13 @@ For **video demo / presentation** flows, see **[TEST-CASES.md](TEST-CASES.md)**.
 
 ---
 
+## Future improvements
+
+- **Vector DB (Chroma)** — The app already tries Chroma first for product context. I ran into issues implementing this. So for now it pulls directly from the web scraped data but a Vector DB would be ideal for scalability.
+- **E2E testing** — Add full-app tests (menu, product flow, add-to-cart, order status, chips) with Playwright so UI and API stay in sync.
+
+---
+
 ## License
 
 Private / case study. PartSelect branding and content are used for demonstration only.
