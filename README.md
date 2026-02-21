@@ -18,7 +18,7 @@ A conversational chatbot for **PartSelect** (appliance parts) that helps users w
   - **Order status**: User provides order number (e.g. `PS-10001`) or email; bot returns mock order details and tracking (demo data only).
 - **PartSelect branding**: Logo, teal/orange/green theme, tagline “Here to help since 1999.”
 - **Product cards**: In-chat cards with part name, part number, price, and “Add to cart” where applicable.
--**Intentionally small scope**: Does not answer questions not related to customer transactions or product information
+- **Intentionally small scope**: Does not answer questions not related to customer transactions or product information
 ---
 
 ## Tech Stack
