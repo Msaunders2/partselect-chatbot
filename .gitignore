@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+.venv/
+
+# Build outputs
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Chroma vector DB data
+server/data/chroma/
+
+# OS files
+.DS_Store
+Thumbs.db

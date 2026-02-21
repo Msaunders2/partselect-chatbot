@@ -1,25 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --ps-orange: #F28D21;
+  --ps-orange-hover: #e07d15;
+  --ps-teal: #006064;
+  --ps-teal-hover: #004d50;
+  --ps-gray: #333333;
+  --ps-gray-light: #666666;
+  --ps-green: #5CB85C;
+  --ps-white: #ffffff;
+  --ps-offwhite: #f8f8f8;
+  --ps-border: #e0e0e0;
+}
 
 * {
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  color: var(--ps-gray);
 }
 
 .App {
-  background-color: white;
+  background-color: var(--ps-white);
+  min-height: 100vh;
 }
 
-.heading {
+.app-header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background: rgba(255, 255, 255); 
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  font-weight: 700;
-  font-size: 16px;
-  justify-content: center;
-  align-items: center;
+  right: 0;
   height: 60px;
+  background: var(--ps-teal);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 100;
+}
+
+.app-header__logo {
+  height: 36px;
+  width: auto;
+  margin-right: 12px;
+}
+
+.app-header__brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-header__title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ps-white);
+  letter-spacing: -0.02em;
+}
+
+.app-header__tagline {
+  font-size: 11px;
+  color: var(--ps-green);
+  margin-top: 1px;
 }
